@@ -4,9 +4,14 @@ import math
 percent_grade = None
 valid_input = False
 
-# Get user input, repeat until it is valid
+# Get user input, repeat until it is valid or user types exit
 while(valid_input == False):
-  percent_grade = float(input('\nEnter grade percentage (must be greater than 0): '))
+  user_input = input('\nEnter grade percentage (must be greater than 0) or \'exit\' to quit: ')
+
+  if user_input.lower() == 'exit':
+    exit()
+
+  percent_grade = float(user_input)
   valid_input = percent_grade >= 0.0
 
   if valid_input == False:
