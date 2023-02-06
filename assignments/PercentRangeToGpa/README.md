@@ -1,4 +1,4 @@
-# PercentRangeToGpa.py Instructions
+# PercentGradeToGpa.py Instructions
 Author:  **Lucas Knezevich**
 
 Version: **1.1**
