@@ -21,17 +21,22 @@ while VALID_INPUT is False:
     if VALID_INPUT is False:
         print("\nInvalid input, grade must be greater than 0.0")
 
-"""Fucntion for calculating GPA from percentage"""
+
 def percent_to_gpa(grade_percentage):
+    """
+    Fucntion for calculating GPA from percentage
+    """
     if grade_percentage >= 95.0:
         return 4.0
     if grade_percentage < 65.0:
         return 0.0
-    else:
-        return (grade_percentage - 65) / 10 + 1
+    return (grade_percentage - 65) / 10 + 1
 
-"""Function that rounds GPA down to one decimal place, returns a string"""
+
 def get_gpa_string(gpa):
+    """
+    Function that rounds GPA down to one decimal place, returns a string
+    """
     return str(math.floor(gpa * 10) / 10)
 
 # Display result
