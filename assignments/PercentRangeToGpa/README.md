@@ -21,9 +21,9 @@ python
 ```
 python --version
 ```
-Once you have verified Python is installed, run the following command from a terminal or command prompt window in the directory containing `PercentGradeToGpa.py`:
+Once you have verified Python is installed, run the following command from a terminal or command prompt window in the directory containing `percent_grade_to_gpa.py`:
 ```
-python PercentGradeToGpa.py
+python percent_grade_to_gpa.py
 ```
 
 ## To Interact
