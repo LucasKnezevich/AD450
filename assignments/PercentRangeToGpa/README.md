@@ -12,7 +12,7 @@ Version: **1.1**
 A Python application for that returns a GPA based on grade percentage.
 
 ## **To Run**
-Make sure you have Python installed on your system by running the following commands in a terminal or command prompt window:
+Make sure you have Python installed on your system by running one of the following commands in a terminal or command prompt window:
 ### Windows:
 ```
 python
