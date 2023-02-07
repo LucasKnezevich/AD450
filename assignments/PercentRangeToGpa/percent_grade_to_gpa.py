@@ -40,5 +40,5 @@ def get_gpa_string(gpa):
     return str(math.floor(gpa * 10) / 10)
 
 # Display result
-print('\nPercent grade is: ' + str(PERCENT_GRADE) + '%\nGPA is: ' + 
+print('\nPercent grade is: ' + str(PERCENT_GRADE) + '%\nGPA is: ' +
     get_gpa_string(percent_to_gpa(PERCENT_GRADE)) + '\n')
